@@ -1,78 +1,72 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Documentation",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/light.svg",
+    "light": "/logo/dark.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#9F71EB",
+    "light": "#9F71EB",
+    "dark": "#9F71EB",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#FFBCA7",
+      "to": "#9F71EB"
     }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:o.lyons@missio.ai"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Got to App",
+    "url": "https://app.missio.ai"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
+  "tabs": [],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "icon": "discord",
+      "url": "https://discord.gg/9CwnRH2Bgt"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://missio.ai/blog"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "pages": ["introduction"]
     },
+
     {
-      "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
-    },
-    {
-      "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
-    },
-    {
-      "group": "Endpoint Examples",
+      "group": "Core",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "conversation-recognition/basics",
+        "ai-copilot/basics",
+        "auto-ticketing/basics",
+        "member-profiling/basics",
+        "analytics/basics",
+        "dynamic-faqs/basics",
+        "topic-grouping/basics",
+        "auto-labeling/basics"
       ]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "twitter": "https://twitter.com/missio_ai",
+    "linkedin": "https://www.linkedin.com/company/missio-ai/?viewAsMember=true",
+    "discord": "https://discord.gg/9CwnRH2Bgt"
+  },
+  "analytics": {
+    "posthog": {
+      "apiKey": "phc_mhGxdjQ7Co21qoTy2hRNDZXvZYStUh9hvfswshOYHjh",
+      "apiHost": "https://app.posthog.com"
+    }
   }
 }

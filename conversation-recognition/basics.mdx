@@ -1,0 +1,116 @@
+---
+title: Conversation Recognition
+icon: "comment"
+iconType: "regular"
+description: 'Automatically detect and route incoming conversations to the right teams and channels'
+---
+
+### Understanding Conversation Recognition
+
+Missio's Conversation Recognition transforms the way your team manages customer interactions. Instead of sifting through linear chat histories, this feature intelligently groups messages into conversation units based on topics, enhancing the clarity and manageability of community dialogues.
+<img
+  className="block dark:hidden"
+  src="/images/feature-conversation-threading.svg"
+  alt="conversation Threading"
+/>
+<img
+  className="hidden dark:block"
+  src="/images/feature-conversation-threading.svg"
+  alt="Conversation Threading"
+/>
+
+<Tip>Missio's conversation recognition instantly understands and routes customer chats to the right teams to eliminate manual triage and improve response times.</Tip>
+
+
+### Key Features
+
+- **Conversation Status**: Each Conversation is marked with a status—`Open`, `In Progress`, or `Resolved:<Resolution Reason>`—indicating the stage of resolution.
+- **Auto-Labeling**: Conversations are automatically given a summary and catagory, such as `bug`, `feedback`, `question` and `feature-request`.
+- **Triaging**: Manage conversations directly from Triage Command-tools in Discord or via a Missio Mission Table, with dedicated channels for Admins and Community Managers.
+- **Recommended Community Manager Actions**:  Based on the identified intent behind each interaction, relevant actions are recommended to community managers such as:
+  * `Respond directly to user inquiry`
+  * `Query manager for more info`
+  * `Request technical support input`
+  * `Follow up with user`
+  * `Provide troubleshooting steps`
+  * `Escalate urgent issue`
+  * `Send documentation`
+  * `Close resolved thread`
+- **Auto-Ticketing**: turn conversations into tickets in your support desk or issue tracker on `Linear`, `Asana`, `Notion`, and `Github`
+
+
+
+
+### How Conversations Are Created and Catagorized
+
+Conversations are generated from all community messages on our support platforms, including: `Discord` and `Discourse`
+
+Each message is automatically analyzed and labeled with a category, such as `Questions`, `Bugs`, `Feature-Requests`, or `Feedback`, ensuring efficient management and response.
+
+<CardGroup cols={2}>
+  <Card
+
+  title="Questions"
+
+  icon="comment"
+
+  color="blue"
+  >
+  Detect and respond to questions directly using our triage system or delegate them automatically to your support ticketing system, while letting your community to stay informed on progress.
+  </Card>
+  <Card
+
+  title="Bugs"
+
+  icon="bug"
+
+  color="red"
+  >
+  Rapidly identify and categorize bug reports. Auto-ticketing streamlines the process, sending issues directly to your development team for prompt resolution.
+  </Card>
+  <Card
+
+  title="Feature-requests"
+
+  icon="lightbulb"
+
+
+  color="yellow"
+  >
+  Track and manage feature requests with ease. Automatically submit feature-requests with auto-linking and prioritize setting to aid in strategic product development decisions
+
+  </Card>
+  <Card
+
+  title="Feedback"
+
+  icon="thumbs-up"
+
+  color="green"
+  >
+  Build rich customer profiles by automatically capturing CRM data, conversation history, and more in our Member-Profiling
+
+  </Card>
+</CardGroup>
+
+
+### Benefits
+
+- **Efficiency**: Automates the categorization and organization of messages from platforms like Discord and Discourse, significantly reducing the time teams spend on manual sorting. This allows teams to concentrate on delivering effective solutions.
+- **Clarity and Streamlined Management**: With each message being automatically categorized into `Questions`, `Bugs`, `Feature-Requests`, or `Feedback`, it creates a more structured and manageable environment. This makes tracking, follow-up, and addressing specific issues much simpler and more organized.
+- **Enhanced Customer Experience**: Ensures a continuous and smooth conversation flow for customers. The system's integration with external support tools, like `Zendesk` or `Salesforce Service`, maintains the continuity of customer interactions, enhancing their overall experience and satisfaction.
+
+## TODO -- THIS IS A DEMO OF THE PRODUCT USER FLOW
+### Getting Started with Conversation Recognition
+
+1. Integrate your Slack workspace with Missio.
+2. Navigate to 'Settings' in Missio and enable 'Conversation Recognition'.
+3. Customize your triage preferences and routing rules.
+
+For a detailed setup guide, refer to our [documentation](https://mintlify.com/docs/conversation-recognition/setup).
+
+### Need Help?
+
+For assistance or to share feedback about the Conversation Recognition feature, please reach out to our support team via our [help center](https://mintlify.com/support).
+
+---
