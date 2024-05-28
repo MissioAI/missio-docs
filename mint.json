@@ -40,8 +40,13 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": ["introduction"]
+      "group": "Getting Started",
+      "pages": [
+        "getting-started/introduction",
+        "getting-started/quick-start",
+        "getting-started/discord-setup",
+        "getting-started/channel-setup"
+      ]
     },
 
     {
