@@ -41,11 +41,52 @@
   "navigation": [
     {
       "group": "Getting Started",
+      "pages": ["getting-started/introduction", "getting-started/quick-start"]
+    },
+    {
+      "group": "Connections",
       "pages": [
-        "getting-started/introduction",
-        "getting-started/quick-start",
-        "getting-started/discord-setup",
-        "getting-started/channel-setup"
+        {
+          "group": "Discord",
+          "icon": "discord",
+          "pages": [
+            "connections/discord/overview",
+            "/connections/discord/setup",
+            "connections/discord/thread-injestion"
+          ]
+        },
+        {
+          "group": "Github",
+          "icon": "github",
+          "pages": ["connections/github/overview", "/connections/github/setup"]
+        },
+        {
+          "group": "Slack",
+          "icon": "slack",
+          "pages": [
+            "connections/slack/overview",
+            "/connections/slack/setup",
+            "connections/slack/thread-injestion"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Using Missio",
+      "pages": [
+        {
+          "group": "Missio AI",
+          "pages": [
+            "using-missio/missio-ai/overview",
+            "using-missio/missio-ai/co-pilot",
+            "using-missio/missio-ai/auto-labelling",
+            "using-missio/missio-ai/response-generation"
+          ]
+        },
+        "using-missio/missio-ai/insights",
+        "using-missio/missio-ai/notifications",
+        "using-missio/labels",
+        "using-missio/threads"
       ]
     }
   ],
