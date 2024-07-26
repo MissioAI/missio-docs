@@ -47,20 +47,6 @@
         "getting-started/discord-setup",
         "getting-started/channel-setup"
       ]
-    },
-
-    {
-      "group": "Core",
-      "pages": [
-        "conversation-recognition/basics",
-        "ai-copilot/basics",
-        "auto-ticketing/basics",
-        "member-profiling/basics",
-        "analytics/basics",
-        "dynamic-faqs/basics",
-        "topic-grouping/basics",
-        "auto-labeling/basics"
-      ]
     }
   ],
   "footerSocials": {
