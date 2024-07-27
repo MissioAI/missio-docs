@@ -79,11 +79,10 @@
           "pages": [
             "using-missio/missio-ai/overview",
             "using-missio/missio-ai/co-pilot",
-            "using-missio/missio-ai/auto-labelling",
-            "using-missio/missio-ai/response-generation"
+            "using-missio/missio-ai/auto-pilot"
           ]
         },
-        "using-missio/missio-ai/insights",
+        "using-missio/insights",
         "using-missio/missio-ai/notifications",
         "using-missio/labels",
         "using-missio/threads"
