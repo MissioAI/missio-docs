@@ -22,7 +22,7 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Got to App",
+    "name": "Go to App",
     "url": "https://app.missio.ai"
   },
   "tabs": [],
@@ -35,7 +35,7 @@
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://missio.ai/blog"
+      "url": "https://missio.ai/Blog"
     }
   ],
   "navigation": [
@@ -51,23 +51,18 @@
           "icon": "discord",
           "pages": [
             "connections/discord/overview",
-            "/connections/discord/setup",
-            "connections/discord/thread-injestion"
+            "/connections/discord/setup"
           ]
         },
         {
           "group": "Github",
           "icon": "github",
-          "pages": ["connections/github/overview", "/connections/github/setup"]
+          "pages": ["connections/github/overview"]
         },
         {
           "group": "Slack",
           "icon": "slack",
-          "pages": [
-            "connections/slack/overview",
-            "/connections/slack/setup",
-            "connections/slack/thread-injestion"
-          ]
+          "pages": ["connections/slack/overview"]
         }
       ]
     },
