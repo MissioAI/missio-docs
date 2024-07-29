@@ -22,7 +22,7 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Got to App",
+    "name": "Go to App",
     "url": "https://app.missio.ai"
   },
   "tabs": [],
@@ -35,31 +35,52 @@
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://missio.ai/blog"
+      "url": "https://missio.ai/Blog"
     }
   ],
   "navigation": [
     {
       "group": "Getting Started",
+      "pages": ["getting-started/introduction", "getting-started/quick-start"]
+    },
+    {
+      "group": "Connections",
       "pages": [
-        "getting-started/introduction",
-        "getting-started/quick-start",
-        "getting-started/discord-setup",
-        "getting-started/channel-setup"
+        {
+          "group": "Discord",
+          "icon": "discord",
+          "pages": [
+            "connections/discord/overview",
+            "/connections/discord/setup"
+          ]
+        },
+        {
+          "group": "Github",
+          "icon": "github",
+          "pages": ["connections/github/overview"]
+        },
+        {
+          "group": "Slack",
+          "icon": "slack",
+          "pages": ["connections/slack/overview"]
+        }
       ]
     },
-
     {
-      "group": "Core",
+      "group": "Using Missio",
       "pages": [
-        "conversation-recognition/basics",
-        "ai-copilot/basics",
-        "auto-ticketing/basics",
-        "member-profiling/basics",
-        "analytics/basics",
-        "dynamic-faqs/basics",
-        "topic-grouping/basics",
-        "auto-labeling/basics"
+        {
+          "group": "Missio AI",
+          "pages": [
+            "using-missio/missio-ai/overview",
+            "using-missio/missio-ai/co-pilot",
+            "using-missio/missio-ai/auto-pilot"
+          ]
+        },
+        "using-missio/insights",
+        "using-missio/missio-ai/notifications",
+        "using-missio/labels",
+        "using-missio/threads"
       ]
     }
   ],
