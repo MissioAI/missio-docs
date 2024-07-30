@@ -60,6 +60,11 @@
           "pages": ["connections/github/overview"]
         },
         {
+          "group": "Email",
+          "icon": "envelope",
+          "pages": ["connections/email/overview"]
+        },
+        {
           "group": "Slack",
           "icon": "slack",
           "pages": ["connections/slack/overview"]
@@ -78,7 +83,14 @@
           ]
         },
         "using-missio/insights",
-        "using-missio/missio-ai/notifications",
+        {
+          "group": "Notifications",
+          "pages": [
+            "using-missio/notifications/overview",
+            "using-missio/notifications/in-app",
+            "using-missio/notifications/external"
+          ]
+        },
         "using-missio/labels",
         "using-missio/threads"
       ]
