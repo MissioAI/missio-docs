@@ -1,0 +1,27 @@
+Missio.ai Product Overview
+Core Product:
+
+Missio.ai is a platform designed to automate and streamline workflows for software teams by integrating with key tools such as Slack, GitHub, and Linear. The platform connects these tools to handle repetitive tasks, allowing developers to focus on high-impact work rather than administrative overhead.
+
+Key Features:
+
+Automated Task Creation:
+
+Automatically converts internal conversations (e.g., in Slack) into actionable support tickets or tasks within tools like GitHub and Linear.
+Automatic Documentation and Feature Request Updates:
+
+Keeps project documentation and feature requests up-to-date in real-time, eliminating the need for manual updates and ensuring all team members are on the same page.
+AI-Powered Support Desk:
+
+Automates the management of support tickets, prioritizes them, and even suggests responses based on previous interactions, significantly speeding up support response times.
+Seamless Integration:
+
+Missio integrates smoothly with internal communication platforms, support channels, and devops tools, ensuring that all aspects of a team’s workflow are connected and operate efficiently together.
+Value Proposition:
+
+Missio.ai helps software teams reduce the time spent on repetitive tasks, improve workflow efficiency, and ensure that all tasks and documentation are kept up to date automatically. By automating these key processes, Missio enables teams to focus on what matters most—building and delivering impactful projects faster and more effectively.
+
+Demo Link:
+
+Missio.ai Product Demo
+https://youtu.be/7vWN8tZ1Wv4?si=EkSeUBf5r7kga8k8
